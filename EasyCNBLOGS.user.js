@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      1.0
+// @version      1.1
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -10,6 +10,8 @@
 // @match        *://www.cnblogs.com/*/archive/*.html
 // @grant        GM_addStyle
 // @run-at       document-start
+// @downloadURL https://update.greasyfork.org/scripts/482368/EasyCNBLOGS.user.js
+// @updateURL https://update.greasyfork.org/scripts/482368/EasyCNBLOGS.meta.js
 // ==/UserScript==
 
 (function() {
