@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面、展示全屏、复制文本等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      8.1
+// @version      9.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -101,6 +101,8 @@ span[role="heading"] {
     height: 28px;
     margin: 6px;
     margin-right: 33px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 0 2px #d9d9d9;
 }
 
 /*正文的图片居中*/
