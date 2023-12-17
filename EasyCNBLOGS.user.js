@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      7.0
+// @version      8.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -32,7 +32,7 @@
 }
 
 /*隐藏背景*/
-html body {
+html body, .post, .postText, .postBody {
     background: none !important;
     background-image: unset !important;
     background-color: unset !important;
@@ -57,6 +57,7 @@ body {
     margin-bottom: unset !important;
     width: 80%;
     font-size: 16px !important;
+    line-height: 1.8 !important;
 }
 .postText, .postBody {
     padding-right: unset !important;
@@ -64,6 +65,8 @@ body {
     padding-bottom: unset !important;
     padding-top: unset !important;
     border-bottom: unset !important;
+    font-size: unset !important;
+    line-height: unset !important;
 }
 
 /*调整标题*/
