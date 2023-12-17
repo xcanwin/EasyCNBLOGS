@@ -2,7 +2,7 @@
 
 <center><div align="center">
 
-# EasyCNBLOGS
+<img src="/assets/EasyCNBLOGS.png" width="750"></img>
 
 <br>
 
