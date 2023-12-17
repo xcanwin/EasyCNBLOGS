@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      3.0
+// @version      4.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -23,6 +23,7 @@
     /*电脑端净化样式*/
     const purify_style_pc = `
 .postTitle /*隐藏[正文的][顶部的]原标题*/,
+#right_meun /*隐藏[正文的][右边的]栏*/,
 #blog_post_info_block /*隐藏[正文的][底部的]推荐关注*/
 {
     display: none !important;
