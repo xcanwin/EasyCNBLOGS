@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      5.0
+// @version      6.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -47,6 +47,7 @@ body {
     padding-bottom: unset !important;
     display: flex;
     justify-content: center;
+    font-size: 16px !important;
 }
 .post {
     border: unset !important;
@@ -55,6 +56,7 @@ body {
     padding: unset !important;
     margin-bottom: unset !important;
     width: 80%;
+    font-size: 16px !important;
 }
 .postText, .postBody {
     padding-right: unset !important;
@@ -80,7 +82,7 @@ span[role="heading"] {
 .newinfo {
     background: #f8f8f8;
     border-radius: 4px;
-    font-size: unset !important;
+    font-size: 13px !important;
     display: flex;
     margin-bottom: 32px;
     align-items: center;
@@ -124,7 +126,9 @@ span[role="heading"] {
         ninfoimg.classList.add('newinfoimg');
         ninfoimg.src = $('link[rel="shortcut icon"]').href;
         const info_user = $('.postDesc a[href^="https://www.cnblogs.com/"]') || $('.postfoot a[href^="https://www.cnblogs.com/"]') ;
+        info_user.style = 'color: #404040';
         const info_date = $('.postDesc #post-date') || $('.postfoot #post-date');
+        info_date.style = 'color: #969696';
         ninfo.append(ninfoimg);
         ninfo.append(info_user);
         ninfo.append(info_date);
