@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyCNBLOGS
 // @description  这是一款促进博客园极致简洁和高效的插件。免费共享大量创新功能，如：净化页面、展示全屏、复制文本等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      9.0
+// @version      10.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyCNBLOGS/
 // @supportURL   https://github.com/xcanwin/EasyCNBLOGS/
@@ -110,6 +110,11 @@ span[role="heading"] {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*恢复滚动条*/
+body {
+    overflow: unset !important;
 }
 `;
 
